@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // Update this if your backend runs on a different host/port
-export const API_BASE = "http://localhost:8888/pages";
+export const API_BASE = "https://auth-backend-htah.onrender.com/pages";
 
 const api = axios.create({
   baseURL: API_BASE,
